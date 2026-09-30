@@ -1,0 +1,22 @@
+# .env
+# __pycache__/
+# *.pyc
+# .venv/
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Scraper output (regenerated data, not source code)
+**/books_with_rating.json
+**/books.json
+**/jobs.json
+**/books_homepage.html
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db

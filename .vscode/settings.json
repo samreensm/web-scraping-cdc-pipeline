@@ -1,0 +1,8 @@
+// {
+//     "python-envs.defaultEnvManager": "ms-python.python:system"
+// }
+
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.defaultInterpreterPath": "${workspaceFolder}\\db\\.venv\\Scripts\\python.exe"
+}
